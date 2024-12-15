@@ -13,8 +13,7 @@ This is a **Vue 3 + Vite** task management system with drag-and-drop functionali
 7. [Key Functionality](#key-functionality)
 8. [Requirements Review](#requirements-review)
 9. [Technologies Used](#technologies-used)
-10. [Contributing](#contributing)
-11. [License](#license)
+10. [License](#license)
 
 ---
 
@@ -75,14 +74,16 @@ management-system/
 ├── public/                       # Static assets
 ├── src/
 │   ├── api/                      # API services (fetch, create, update, delete)
-│   │   └── index.ts
+│   │   └── index.ts              # API initialization
 │   │   └── tasks.ts              # Task API services
-│   ├── assets/                   # Static assets (icons, images, styles)
+│   ├── assets/                   # Static assets (scss, styles)
+│   │   └── main.scss             # SCSS styles
 │   ├── components/               # Reusable Vue components
 │   │   ├── AddProject.vue        # Add/Edit Project Modal
 │   │   ├── AddTask.vue           # Add/Edit Task Modal
 │   │   ├── PushNotification.vue  # Notification component
 │   ├── router/                   # Vue Router configuration
+│   │   └── index.ts              # Router configuration file
 │   ├── stores/                   # Pinia stores
 │   │   ├── projectsStore.ts      # Store for projects
 │   │   ├── tasksStore.ts         # Store for tasks
