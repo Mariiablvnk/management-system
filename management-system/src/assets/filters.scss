@@ -1,0 +1,15 @@
+.filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: baseline;
+    gap: $padding; 
+
+    input,
+    select {
+        width: 100%;
+        padding: $padding / 2;
+        border: 1px solid $secondary-light;
+        border-radius: $border-radius;
+        box-sizing: border-box; 
+    }
+}

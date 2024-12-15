@@ -1,0 +1,22 @@
+header {
+    background-color: $secondary-dark;
+    color: #fff;
+    padding: $padding;
+
+    nav {
+        @include flex-center(row, space-between);
+        font-size: 16px;
+
+        a {
+            color: $primary-light;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 10px;
+            border-radius: $border-radius;
+
+            &:hover {
+                background-color: $secondary;
+            }
+        }
+    }
+}

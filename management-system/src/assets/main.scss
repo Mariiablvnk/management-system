@@ -1,0 +1,47 @@
+@import "variables";
+@import "mixins";
+@import "global";
+@import "header";
+@import "table";
+@import "modal";
+@import "filters";
+
+
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    background-color: $primary-light;
+    color: $secondary-dark;
+}
+
+
+.primary-btn {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: $secondary-light;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: $secondary-dark;
+}
+
+.sort-btn {
+    background-color: $secondary;
+    color: white;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+
+.home {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}

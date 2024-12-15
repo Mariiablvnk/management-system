@@ -1,0 +1,27 @@
+$colors: (
+    primary-light: #F0F9FF,
+    primary: #bce4ff,
+    primary-dark: #7ac6ee,
+    secondary-light: #94A3B8,
+    secondary: #3b4657,
+    secondary-dark: #1E293B,
+    brand-light: #4ADE80,
+    brand: #16A34A,
+    brand-dark: #166534
+);
+
+
+$primary-light: map-get($colors, primary-light);
+$primary: map-get($colors, primary);
+$primary-dark: map-get($colors, primary-dark);
+$secondary-light: map-get($colors, secondary-light);
+$secondary: map-get($colors, secondary);
+$secondary-dark: map-get($colors, secondary-dark);
+$brand-light: map-get($colors, brand-light);
+$brand: map-get($colors, brand);
+$brand-dark: map-get($colors, brand-dark);
+
+
+$font-stack: "Inter", "Arial", sans-serif;
+$border-radius: 8px;
+$padding: 16px;
